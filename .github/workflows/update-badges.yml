@@ -19,6 +19,7 @@ jobs:
           userid: 2317209                        # your user id, see setup on how to obtain
           session: ${{ secrets.AOC_SESSION }}    # secret containing session code, see setup on how to obtain
           year: 2021
+          leaderboard: 'https://adventofcode.com/2021/leaderboard/private/view/961071.json'
 
 #         Optional inputs:
 #
