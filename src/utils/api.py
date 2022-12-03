@@ -10,7 +10,7 @@ def get_url(year, day):
 
 
 YEAR = 2021
-SESSION_ID_FILE = "session.cookie"
+SESSION_ID_FILE = "../session.cookie"
 SESSION = get_session_id(SESSION_ID_FILE)
 HEADERS = {
     "User-Agent": "cortex359 python script"
@@ -21,7 +21,7 @@ COOKIES = {
 
 
 def get_input(day):
-    path = f"inputs/{day:02d}"
+    path = f"../inputs/{day:02d}"
 
     if not exists(path):
         url = get_url(YEAR, day)
